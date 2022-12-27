@@ -1,0 +1,49 @@
+query GetCharacters {
+  characters {
+    info {
+      count
+    }
+    results {
+      id
+      name
+      status
+      species
+      type
+      gender
+      origin {
+        name
+    	},
+      location {
+        name
+        type
+  		},
+      image
+      created
+    }
+  }
+}
+
+query GetCharacterByGender($gender: String) {
+  characters(filter: { gender: $gender }) {
+    info {
+      count
+    }
+    results {
+      id
+      name
+      status
+      species
+      type
+      gender
+      origin {
+        name
+    	},
+      location {
+        name
+        type
+  		},
+      image
+      created
+    }
+  }
+}
