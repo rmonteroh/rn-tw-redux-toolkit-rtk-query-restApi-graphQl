@@ -28,7 +28,7 @@ yarn add -D @graphql-codegen/cli @graphql-codegen/typescript-rtk-query @graphql-
 npx graphql-codegen init
 ```
 #### Reference links
-https://the-guild.dev/graphql/codegen
-https://redux-toolkit.js.org/rtk-query/usage/code-generation#graphql
-https://the-guild.dev/graphql/codegen/plugins/typescript/typescript-rtk-query
-https://github.com/reduxjs/redux-toolkit/tree/master/examples/query/react/graphql-codegen
+- https://the-guild.dev/graphql/codegen 
+- https://redux-toolkit.js.org/rtk-query/usage/code-generation#graphql
+- https://the-guild.dev/graphql/codegen/plugins/typescript/typescript-rtk-query
+- https://github.com/reduxjs/redux-toolkit/tree/master/examples/query/react/graphql-codegen
