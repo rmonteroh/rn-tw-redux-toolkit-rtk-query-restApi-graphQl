@@ -1,8 +1,6 @@
 # Summary (POC)
 This project is an initial template where we integrate React Native with TypeScript, Tailwind CSS, Redux Toolkit, RTK Query, REST and GraphQl Api with code generation for redux-toolkit types and endpoints using graphql/codegen and its integration with RTK Query Hooks.
 
-## Getting started: 
-
 ### Run using:
 ```bash
 yarn
